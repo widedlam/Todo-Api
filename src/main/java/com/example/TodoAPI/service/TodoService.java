@@ -1,8 +1,8 @@
-package com.example.todoapi.service;
+package com.example.TodoAPI.service;
 
 import java.util.List;
 
-import com.example.todoapi.model.Todo;
+import com.example.TodoAPI.model.Todo;
 
 public interface TodoService {
 	public List<Todo> getAllTodos();

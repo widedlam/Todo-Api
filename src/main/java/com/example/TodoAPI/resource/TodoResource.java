@@ -1,4 +1,4 @@
-package com.example.todoapi.resource;
+package com.example.TodoAPI.resource;
 
 import java.util.List;
 
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.example.todoapi.model.Todo;
-import com.example.todoapi.service.TodoServiceImpl;
+import com.example.TodoAPI.model.Todo;
+import com.example.TodoAPI.service.TodoServiceImpl;
 
 
 @RestController

@@ -1,4 +1,4 @@
-package com.example.todoapi.model;
+package com.example.TodoAPI.model;
 
 
 public class Todo {
