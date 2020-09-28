@@ -19,7 +19,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.example.TodoAPI.model.Todo;
 import com.example.TodoAPI.service.TodoServiceImpl;
 
-
 @RestController
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 @RequestMapping("/todos")
@@ -62,8 +61,7 @@ public class TodoResource {
 	}
 
 	@GetMapping("/{id}")
-	public ResponseEntity<Todo> getTodo(@PathVariable int id, UriComponentsBuilder uriComponentBuilder)
-			 {
+	public ResponseEntity<Todo> getTodo(@PathVariable int id, UriComponentsBuilder uriComponentBuilder) {
 		Todo todo = todoService.findTodoById(id);
 		try {
 			if (todo != null) {
