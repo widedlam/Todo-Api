@@ -1,8 +1,9 @@
 package com.example.TodoAPI.model;
 
-import java.io.Serializable;
 
-public class Todo implements Serializable {
+
+
+public class Todo {
 	
 	private int id;
 	private String description;
