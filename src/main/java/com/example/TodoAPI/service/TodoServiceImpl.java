@@ -1,10 +1,10 @@
-package com.example.TodoAPI.service;
+package com.example.todoapi.service;
 
 import java.util.*;
 
 import org.springframework.stereotype.Service;
 
-import com.example.TodoAPI.model.Todo;
+import com.example.todoapi.model.Todo;
 
 @Service
 public class TodoServiceImpl {
