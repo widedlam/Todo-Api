@@ -7,7 +7,7 @@ public class Todo {
 	private String description;
 
 	public Todo() {
-		
+		super();
 	}
 	
 	public Todo(int id, String description) {
