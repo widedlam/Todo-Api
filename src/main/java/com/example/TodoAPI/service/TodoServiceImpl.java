@@ -12,12 +12,6 @@ public class TodoServiceImpl {
 	private static List<Todo> todos = new ArrayList<Todo>();
 	private static int idCounter = 0;
 
-	static {
-		todos.add(new Todo(++idCounter, "Activity I description"));
-		todos.add(new Todo(++idCounter, "Activity II description"));
-		todos.add(new Todo(++idCounter, "Activity III description"));
-	}
-
 	public List<Todo> getAllTodos() {
 		return todos;
 	}
